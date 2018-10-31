@@ -184,7 +184,7 @@ input, select, textarea {
 		font-family: "Roboto Slab", serif;
 		font-weight: 700;
 		line-height: 1.5;
-		margin: 0 0 1em 0;
+/*		margin: 0 0 1em 0;*/
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2991,11 +2991,14 @@ input, select, textarea {
 		#main > .inner {
 			padding: 0 15% 0.1em 15% ;
 			margin: 0 auto;
+            
+/*            main background color yo*/
+            background-color: antiquewhiter;
 /*			max-width: 110em;*/
 		}
 
 			#main > .inner > section {
-				padding: 6em 0 4em 0 ;
+				padding: 5% 0 1% 0 ;
 				border-top: solid 2px rgba(210, 215, 217, 0.75);
 			}
 
@@ -3358,6 +3361,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+     
 	}
 
 		#banner h1 {
@@ -3374,6 +3378,7 @@ input, select, textarea {
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			width: 50%;
+            
 		}
 
 		#banner .image {
@@ -3410,6 +3415,7 @@ input, select, textarea {
 				-webkit-flex-direction: column-reverse;
 				-ms-flex-direction: column-reverse;
 				flex-direction: column-reverse;
+                
 			}
 
 				#banner h1 br {
